@@ -1,27 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
 body{
-    background-color: #86CDB2}
-
-nav{
-    display: inline-block;
+    background-color: rgb(192,232,218);
 }
-.menu{
+.topo .icones{
+    padding: 30px 20px ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.topo .icones-direito{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.tela1{
+    width: 421px;
+    height: 857px;
+    margin: 60px;
     background-color: white;
-    height: 570px;
-    width: 220px;
-    border-radius: 10px;
+    border-radius: 23px;
+}
+
+/* .tela1 i{
+    padding-inline-start: 20px;
+    margin-inline-start: 60px;
+} */
+
+.date-header{
+    margin: 0px;
+    padding: 0px 0px 10px;
+    
     
 }
 
-.direita-tela{
-    margin-top: 40px;
-    padding-right: 70px;
+.date-header p{
+    padding: 0px 0px 10px ;
+    color: #d2d9d7;
+    font-size: 14px;
     
+}
+
+.date-header h1{
+    font-size: 16px;
+}
+
+.date-hours p{
+    color: #89d4b9;
+    padding: 25px 0px 15px;
+    font-style: solid
+    ;
+    
+    
+}
+
+.date-hours button{
+    padding: 3px;
+    margin: 8px;
+    width: 20px;
+    height: 20px;
+    color: #89d4b9;
+    background-color: #eaf8f2;  
+    border-radius:6px; 
+    border-style: none;
+}
+
+.date-hours .seta{
+    color: #d2d9d7;
+    background-color: white;
+    font-style: solid;
+    
+}
+.body-1{
+    border-radius: 15px;
+    background-color: #eaf8f2;
+}
+.body-1 h3{
+    color: #7fd1a9;
+    padding: 5px 10px;
+    
+}
+
+.body-1 .botao{
+    background-color: #89d4b9;
+    padding: 10px; 
+}
+
+.body-1 .data-hora{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    
+    
+}
+
+.body-1 .data{
+    font-size: 10px;
+    color: #89d4b9;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.body-1 .horas{
+    font-size: 10px;
+    color: #89d4b9;
+    text-align: center;
+    padding: 5px;
+    
+}
+
+
+.body-2 button{
+    padding: 3px;
+    margin: 8px;
+    width: 20px;
+    height: 20px;
+    color: #cad2cf;
+    background-color: #eff2f1;  
+    border-radius:6px; 
+    border-style: none;
+}
+
+.body-2 .seta{
+    color: #d2d9d7;
+    background-color: white;
+    
+}
+
+.research .data-hora{
+    display: flex;
+    padding: 5px 20px 5px;
     
     
     
 }
 
-.esquerda-tela{
+.research .data{
+    color: #89d4b9;
+    width: 40px;
+    height: 15px;
+    text-align: center;
+    background-color: #eaf8f2;
+    border-radius: 5px;
+    font-size: 10px;
+    
+}
+
+.research .hora{
+    color: #d2d9d7;
+    background-color: white;
+    font-size: 10px;
+}
+
+.create .data{
+    color: #89d4b9;
+    width: 40px;
+    height: 15px;
+    text-align: center;
+    background-color: #eaf8f2;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.create .hora{
+    color: #d2d9d7;
+    background-color: white;
+    font-size: 10px;
+    
+    
+}
+.create .data-hora{
+    display: flex;
+    padding: 5px 20px 5px;
+    
+}
+
+.opcoes .opc{
+    padding: 7px 15px 15px;
+   
+    
+}
+.botao-mais{
+    display: flex;
+    justify-content: end;
+}
+.botao-mais .mais{
+    background-color:#37b07d;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
     
     
     
