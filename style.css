@@ -1,0 +1,28 @@
+body{
+    background-color: #86CDB2}
+
+nav{
+    display: inline-block;
+}
+.menu{
+    background-color: white;
+    height: 570px;
+    width: 220px;
+    border-radius: 10px;
+    
+}
+
+.direita-tela{
+    margin-top: 40px;
+    padding-right: 70px;
+    
+    
+    
+    
+}
+
+.esquerda-tela{
+    
+    
+    
+}
