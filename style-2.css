@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: rgb(192, 232, 218);
+    font-size: 'Roboto';
+    font-weight: bold;
+}
+
+.topo .icones {
+    padding: 40px 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tela1 .data-hora {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+
+
+} 
+
+.tela1 .data {
+    font-size: 10px;
+    color: #89d4b9;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.tela1 .hora {
+    font-size: 10px;
+    color: #d2d9d7;
+    text-align: center;
+    padding: 5px;
+    font-size: 12px; }*/
+
+
+
+
+.inicio p{
+    color: #d2d9d7;
+    font-size: 14px;
+}
+
+.inicio h1{} */
