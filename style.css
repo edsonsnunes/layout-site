@@ -10,6 +10,8 @@ body {
     background-color: rgb(192, 232, 218);
     font-size: 'Roboto';
     font-weight: bold;
+    
+    
 }
 
 .topo .icones {
@@ -26,8 +28,6 @@ body {
 }
 
 .tela1 {
-
-
     background-color: white;
     border-radius: 23px;
 }
@@ -46,7 +46,7 @@ body {
 
 .date-header p {
     padding: 0px 0px 10px;
-    color: #d2d9d7;
+    color: #6b7270;
     font-size: 14px;
 
 }
@@ -58,7 +58,7 @@ body {
 
 
 .date-hours p {
-    color: #89d4b9;
+    color: #1d6302;
     padding: 25px 0px 15px;
 }
 
@@ -67,14 +67,14 @@ body {
     margin: 8px;
     width: 20px;
     height: 20px;
-    color: #89d4b9;
+    color: #1d6302;
     background-color: #eaf8f2;
     border-radius: 6px;
     border-style: none;
 }
 
 .date-hours .seta {
-    color: #d2d9d7;
+    color:#96a8a3a8;
     background-color: white;
 
 
@@ -84,12 +84,12 @@ body {
     border-radius: 15px;
     background-color: #eaf8f2;
     padding: 5px 10px;
-    color:#89d4b9;
+    color:#1d6302;
 
 }
 
 .body-1 .botao {
-    background-color: #eaf8f2;
+    background-color: #96a8a3a8;
     padding: 10px;
 }
 
@@ -104,7 +104,7 @@ body {
 
 .body-1 .data {
     font-size: 10px;
-    color: #89d4b9;
+    color: #1d6302;
     text-align: center;
     background-color: white;
     padding: 5px;
@@ -113,9 +113,10 @@ body {
 
 .body-1 .horas {
     font-size: 10px;
-    color: #89d4b9;
+    color:#1d6302;
     text-align: center;
     padding: 5px;
+    
 
 }
 
@@ -125,10 +126,11 @@ body {
     margin: 8px;
     width: 20px;
     height: 20px;
-    color: #cad2cf;
-    background-color: #eff2f1;
+    color: #6b7270;
+    background-color: #96a8a3a8;
     border-radius: 6px;
     border-style: none;
+    box-shadow: #000a06;
 }
 
 .body-2 p {
@@ -153,7 +155,7 @@ body {
 }
 
 .research .data {
-    color: #89d4b9;
+    color: #1d6302;
     width: 40px;
     height: 15px;
     text-align: center;
@@ -164,13 +166,13 @@ body {
 }
 
 .research .hora {
-    color: #d2d9d7;
+    color: #6b7270;
     background-color: white;
     font-size: 10px;
 }
 
 .create .data {
-    color: #89d4b9;
+    color: #1d6302;
     width: 40px;
     height: 15px;
     text-align: center;
@@ -180,7 +182,7 @@ body {
 }
 
 .create .hora {
-    color: #d2d9d7;
+    color:#6b7270;
     background-color: white;
     font-size: 10px;
 

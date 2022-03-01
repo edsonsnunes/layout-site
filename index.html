@@ -9,7 +9,7 @@
     <title>Teste-layout</title>
 </head>
 
-<body>
+<body onload="carregar()">
     <div class="tela1">
         <div class="topo">
             <div class="icones">
@@ -23,7 +23,9 @@
         <div style="padding: 50px;">
             <div class="date-header">
                 <p>Today,</p>
-                <h1>27 March 2021</h1>
+                <span id="datatxt">
+                    <h1></h1>
+                </span>
             </div>
             <div class="date-hours" style="display: flex; justify-content: space-between;">
                 <p>Today<button id="1">1</button></p>
@@ -32,11 +34,12 @@
             <div class="body-1">
                 <div style="padding: 15px;">
                     <div>
-                        <h3><input class="botao" type="checkbox" value="">
-                            Sharing UI Design - Basic</h3>
+                        <h3 style="font-weight: bold;"><input class="botao" type="checkbox" value="">
+                            <span style="padding-left: 12px;">Sharing UI Design-Basics</span>
+                        </h3>
                     </div>
                     <div class="data-hora">
-                        <p class="data">27 March 2020</p>
+                        <div id="datatxt2"><p class="data">27 March 2020</p></div>
                         <p class="horas">08:00AM</p>
                     </div>
                 </div>
@@ -49,7 +52,7 @@
                     </div>
                     <div class="research">
                         <div>
-                            <p><input type="checkbox" value="">Research Product for USB</p>
+                            <p><input type="checkbox" value=""><span style="padding-left: 12px;">Research Product for USB</span></p>
                         </div>
                         <div class="data-hora">
                             <div class="data">Today</div>
@@ -57,19 +60,20 @@
                         </div>
                     </div>
                     <div class="create">
-                        <p><input type="checkbox" value="">Create Action for Product</p>
+                        <p><input type="checkbox" value=""><span style="padding-left: 12px;">Create Action for Product</span></p>
                         <div class="data-hora">
                             <div class="data">Today</div>
                             <div class="hora">13:05PM</div>
                         </div>
                         <div class="opcoes">
                             <div class="opc">
-                                <p><input type="checkbox" value="">Research</p>
-                                <p><input type="checkbox" value="">Deffine</p>
+                                <p><input type="checkbox" value=""><span style="padding-left: 12px;">Research</span></p>
+                                
+                                <p><input type="checkbox" value=""><span style="padding-left: 12px;">Deffine</span></p>
                             </div>
                         </div>
                         <div class="design">
-                            <p><input type="checkbox" value="">Desing Multi-Preview</p>
+                            <p><input type="checkbox" value=""><span style="padding-left: 12px;">Desing Multi-Preview</span></p>
                             <div class="data-hora">
                                 <div class="data">Today</div>
                                 <div class="hora">13:05PM</div>
@@ -85,6 +89,7 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
