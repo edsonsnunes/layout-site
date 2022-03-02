@@ -22,9 +22,11 @@
         </div>
         <div style="padding: 50px;">
             <div class="date-header">
-                <p>Today,</p>
-                <span id="datatxt">
-                    <h1></h1>
+                <div id="diatxt">
+                    <p>Today,</p>
+                </div>
+                <span class="datatxt">
+                    <h1>resposta</h1>
                 </span>
             </div>
             <div class="date-hours" style="display: flex; justify-content: space-between;">
@@ -34,12 +36,19 @@
             <div class="body-1">
                 <div style="padding: 15px;">
                     <div>
-                        <h3 style="font-weight: bold;"><input class="botao" type="checkbox" value="">
-                            <span style="padding-left: 12px;">Sharing UI Design-Basics</span>
+                        <h3 style="font-weight: bold;">
+                            <div class="custom-checkbox">
+                                <input id="checkbox-1" type="checkbox">
+                                <label for="checkbox-1"><span style="padding-left: 12px;">Sharing UI
+                                        Design-Basics</span></label>
+                            </div>
+
                         </h3>
                     </div>
                     <div class="data-hora">
-                        <div id="datatxt2"><p class="data">27 March 2020</p></div>
+                        <div class="datatxt">
+                            <p>resposta</p>
+                        </div>
                         <p class="horas">08:00AM</p>
                     </div>
                 </div>
@@ -51,8 +60,11 @@
                         <p><button class="seta">^</button></p>
                     </div>
                     <div class="research">
-                        <div>
-                            <p><input type="checkbox" value=""><span style="padding-left: 12px;">Research Product for USB</span></p>
+                        <div class="custom-checkbox-2">
+                            <input id="checkbox-2" type="checkbox">
+                            <label style="padding: 10px;" for="checkbox-2"><span style="padding-left: 12px;">Research
+                                    Product for
+                                    USB</span></label>
                         </div>
                         <div class="data-hora">
                             <div class="data">Today</div>
@@ -60,21 +72,35 @@
                         </div>
                     </div>
                     <div class="create">
-                        <p><input type="checkbox" value=""><span style="padding-left: 12px;">Create Action for Product</span></p>
+                        <div class="custom-checkbox-3">
+                            <input id="checkbox-3" type="checkbox" value="">
+                            <label style="padding: 10px;"  for="checkbox-3"></label> <span>Create Action for Product
+                            </span></label>
+                        </div>
                         <div class="data-hora">
                             <div class="data">Today</div>
                             <div class="hora">13:05PM</div>
                         </div>
                         <div class="opcoes">
                             <div class="opc">
-                                <p><input type="checkbox" value=""><span style="padding-left: 12px;">Research</span></p>
-                                
-                                <p><input type="checkbox" value=""><span style="padding-left: 12px;">Deffine</span></p>
+                                <div class="custom-checkbox-4">
+                                <input id="checkbox-4" type="checkbox" value="">
+                                <label style="padding: 15px;" for="checkbox-4"><span style="padding-left: 10px;">Research</span></label>
+                            </div>
+                            
+                                <div class="custom-checkbox-5">
+                                <input id="checkbox-5" type="checkbox" value="">
+                                <label style="padding: 15px;"  for="checkbox-5"> <span style="padding-left: 6px;">Deffine</span></label>
+                            </div>
                             </div>
                         </div>
                         <div class="design">
-                            <p><input type="checkbox" value=""><span style="padding-left: 12px;">Desing Multi-Preview</span></p>
-                            <div class="data-hora">
+                            <div class="custom-checkbox-6">
+                            <input id="checkbox-6" type="checkbox" value="">
+                            <label style="padding: 1px;" for="checkbox-6"><span style="padding-left: 15px;">Desing
+                                    Multi-Preview</span></label>
+                                </div>
+                            <div  class="data-hora">
                                 <div class="data">Today</div>
                                 <div class="hora">13:05PM</div>
 
