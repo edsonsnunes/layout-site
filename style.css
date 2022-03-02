@@ -127,6 +127,7 @@ body {
 
 .custom-checkbox-4 input {
     display: none;
+    
 }
 
 .custom-checkbox-4 input+label:before {
