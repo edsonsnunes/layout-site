@@ -1,11 +1,15 @@
 function carregar(){
-    var data = document.getElementById('datatxt')
-    console.log(data)
+    var data = document.querySelectorAll('.datatxt')
+    var diaAtual = document.getElementById('diatxt')
     dataAtual = new Date()
-    dia = dataAtual.getDay()-1
+    diahoje = dataAtual.getDay()
+    dia = dataAtual.getDate()
     // meses = ["janeiro", "Fevereiro", "Março", "Abril", "Maio", "junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"]
     mes = dataAtual.getMonth()
     ano = dataAtual.getFullYear()
+    data.forEach(element => {
+        element.textContent;
+      });
     switch (mes){
         case 0:
             mesTexto = "Janeiro"
@@ -44,14 +48,39 @@ function carregar(){
             mesTexto = "Dezembro"
             break
     }
-    
+    switch(diahoje){
+        case 0:
+            diaSemana = "Domingo"
+            break
+        case 1:
+            diaSemana = "Segunda-feira"
+            break
+        case 2:
+            diaSemana = "Terça-feira"
+            break
+        case 3:
+            diaSemana = "Quarta-feira"
+            break
+        case 4:
+            diaSemana = "Quinta-feira"
+            break
+        case 5:
+            diaSemana = "Sexta-feira"
+            break
+        case 6:
+            diaSemana = "Sábado"
+            break
+
+    }
     if(dia < 10){
-        data.textContent =`0${dia} ${mesTexto} ${ano}`
+        data.forEach(element => {
+            element.textContent = `0${dia} ${mesTexto} ${ano}`;
+          });
     }else{
-        data.textContent = `${dia} ${mes} ${ano} `
+        data.textContent = `${dia} ${mesTexto} ${ano} `
     }
 
-    
+    diaAtual.innerHTML = `${diaSemana}`
     
     
 }

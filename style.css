@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
 
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,10 +9,10 @@
 
 body {
     background-color: rgb(192, 232, 218);
-    font-size: 'Roboto';
+    font-family: 'Roboto';
     font-weight: bold;
-    
-    
+
+
 }
 
 .topo .icones {
@@ -32,10 +33,7 @@ body {
     border-radius: 23px;
 }
 
-/* .tela1 i{
-    padding-inline-start: 20px;
-    margin-inline-start: 60px;
-} */
+
 
 .date-header {
     margin: 0px;
@@ -44,15 +42,153 @@ body {
 
 }
 
-.date-header p {
+.input .botao {
+    background-color: #1d6302;
+}
+
+
+
+.date-header #diatxt {
     padding: 0px 0px 10px;
-    color: #6b7270;
+    color: #A6BAB2;
     font-size: 14px;
 
 }
 
 .date-header h1 {
     font-size: 16px;
+}
+
+.custom-checkbox input {
+    display: none;
+}
+
+.custom-checkbox input+label:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #1d63027c;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.custom-checkbox input:checked+label:before {
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+    ;
+    background-color: #37b07d;
+}
+
+.custom-checkbox-2 input {
+    display: none;
+}
+
+.custom-checkbox-2 input+label:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #1d63027c;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.custom-checkbox-2 input:checked+label:before {
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+    ;
+    background-color: #37b07d;
+}
+
+.custom-checkbox-3 input {
+    display: none;
+}
+
+.custom-checkbox-3 input+label:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #1d63027c;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.custom-checkbox-3 input:checked+label:before {
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+    ;
+    background-color: #37b07d;
+}
+
+.custom-checkbox-4 input {
+    display: none;
+    
+}
+
+.custom-checkbox-4 input+label:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #1d63027c;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.custom-checkbox-4 input:checked+label:before {
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+    ;
+    background-color: #37b07d;
+}
+
+.custom-checkbox-5 input {
+    display: none;
+}
+
+.custom-checkbox-5 input+label:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #1d63027c;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.custom-checkbox-5 input:checked+label:before {
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+    ;
+    background-color: #37b07d;
+}
+.custom-checkbox-6 input {
+    display: none;
+}
+
+.custom-checkbox-6 input+label:before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #1d63027c;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.custom-checkbox-6 input:checked+label:before {
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 10 10'%3E%3Cg class='nc-icon-wrapper' stroke-width='1' fill='%23555555'%3E%3Cpath fill='none' stroke='%23FFFFFF' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' data-cap='butt' d='M2.83 4.72l1.58 1.58 2.83-2.83'/%3E%3C/g%3E%3C/svg%3E");
+    ;
+    background-color: #37b07d;
 }
 
 
@@ -74,7 +210,7 @@ body {
 }
 
 .date-hours .seta {
-    color:#96a8a3a8;
+    color: #96a8a3a8;
     background-color: white;
 
 
@@ -84,7 +220,7 @@ body {
     border-radius: 15px;
     background-color: #eaf8f2;
     padding: 5px 10px;
-    color:#1d6302;
+    color: #1d6302;
 
 }
 
@@ -102,7 +238,7 @@ body {
 
 }
 
-.body-1 .data {
+.body-1 .datatxt {
     font-size: 10px;
     color: #1d6302;
     text-align: center;
@@ -113,10 +249,10 @@ body {
 
 .body-1 .horas {
     font-size: 10px;
-    color:#1d6302;
+    color: #1d6302;
     text-align: center;
     padding: 5px;
-    
+
 
 }
 
@@ -144,10 +280,17 @@ body {
 }
 
 
+input {
+    width: 20px;
+    height: 15px;
+    border-radius: 8px;
+}
+
+
 
 .research .data-hora {
     display: flex;
-    padding: 5px 20px 5px;
+    padding:12px 46px 14px;
     gap: 13px;
 
 
@@ -179,10 +322,11 @@ body {
     background-color: #eaf8f2;
     border-radius: 5px;
     font-size: 10px;
+
 }
 
 .create .hora {
-    color:#6b7270;
+    color: #6b7270;
     background-color: white;
     font-size: 10px;
 
@@ -191,8 +335,9 @@ body {
 
 .create .data-hora {
     display: flex;
-    padding: 5px 20px 5px;
+    padding:12px 46px 2px;
     gap: 13px;
+
 
 }
 
