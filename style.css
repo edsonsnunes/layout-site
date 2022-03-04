@@ -11,7 +11,12 @@ body {
     background-color: rgb(192, 232, 218);
     font-family: 'Roboto';
     font-weight: bold;
-
+    display: grid;
+    justify-items: center;
+    height: 100vh;
+    align-items: center;
+    
+    
 
 }
 
@@ -31,6 +36,9 @@ body {
 .tela1 {
     background-color: white;
     border-radius: 23px;
+    max-width: 400px;
+    max-height: 800px;
+    
 }
 
 
@@ -50,7 +58,7 @@ body {
 
 .date-header #diatxt {
     padding: 0px 0px 10px;
-    color: #A6BAB2;
+    color: #b6c2be;
     font-size: 14px;
 
 }
@@ -194,7 +202,7 @@ body {
 
 
 .date-hours p {
-    color: #1d6302;
+    color: #04ae65;
     padding: 25px 0px 15px;
 }
 
@@ -203,7 +211,7 @@ body {
     margin: 8px;
     width: 20px;
     height: 20px;
-    color: #1d6302;
+    color: #04ae65;
     background-color: #eaf8f2;
     border-radius: 6px;
     border-style: none;
@@ -220,7 +228,7 @@ body {
     border-radius: 15px;
     background-color: #eaf8f2;
     padding: 5px 10px;
-    color: #1d6302;
+    color: #04ae65;
 
 }
 
@@ -240,7 +248,7 @@ body {
 
 .body-1 .datatxt {
     font-size: 10px;
-    color: #1d6302;
+    color: #04ae65;
     text-align: center;
     background-color: white;
     padding: 5px;
@@ -249,7 +257,7 @@ body {
 
 .body-1 .horas {
     font-size: 10px;
-    color: #1d6302;
+    color: #04ae65;
     text-align: center;
     padding: 5px;
 
@@ -262,8 +270,8 @@ body {
     margin: 8px;
     width: 20px;
     height: 20px;
-    color: #6b7270;
-    background-color: #96a8a3a8;
+    color: #b6c2be;
+    background-color: #eef1f0;
     border-radius: 6px;
     border-style: none;
     box-shadow: #000a06;
@@ -298,7 +306,7 @@ input {
 }
 
 .research .data {
-    color: #1d6302;
+    color: #04ae65;
     width: 40px;
     height: 15px;
     text-align: center;
@@ -309,13 +317,13 @@ input {
 }
 
 .research .hora {
-    color: #6b7270;
+    color: #b6c2be;
     background-color: white;
     font-size: 10px;
 }
 
 .create .data {
-    color: #1d6302;
+    color: #04ae65;
     width: 40px;
     height: 15px;
     text-align: center;
@@ -326,7 +334,7 @@ input {
 }
 
 .create .hora {
-    color: #6b7270;
+    color: #b6c2be;
     background-color: white;
     font-size: 10px;
 
@@ -353,11 +361,12 @@ input {
 }
 
 .botao-mais .mais {
-    background-color: #37b07d;
+    background-color: #04ae65;
     width: 40px;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 12px;
     color: white;
     font-size: 25px;
+    box-shadow: 0px 2px 2px 2px rgba(80, 202, 64, 0.2)
 
 }
