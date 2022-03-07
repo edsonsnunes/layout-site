@@ -350,9 +350,13 @@ input {
 }
 
 .opcoes .opc {
-    padding: 7px 15px 15px;
+    
 
 
+}
+
+.custom-checkbox-6{
+    padding-top: 12px;
 }
 
 .botao-mais {
