@@ -63,14 +63,6 @@ function carregar(){
             break
         case 4:
             diaSemana = "Quinta-feira"
-            break
-        case 5:
-            diaSemana = "Sexta-feira"
-            break
-        case 6:
-            diaSemana = "Sábado"
-            break
-
     }
     if(dia < 10){
         data.forEach(element => {
@@ -81,6 +73,9 @@ function carregar(){
     }
 
     diaAtual.innerHTML = `${diaSemana}`
-    
-    
+
+
+   
+   
 }
+
