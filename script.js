@@ -74,8 +74,24 @@ function carregar(){
 
     diaAtual.innerHTML = `${diaSemana}`
 
-
+    tarefas()
    
    
 }
 
+function tarefas(){
+    let dados = ["Ir ao trabalho", "Ir à faculdade", "Descansar"]
+    let lista = document.getElementById("minhaLista")
+    console.log(lista)
+
+    dados.forEach((item) => {
+       console.log(item);
+       let li = document.createElement("li");
+       console.log(li);
+       li.innerHTML = '<input class="checkbox-2" type="checkbox"> <label class="classelabel" for="checkbox-2"><span class="classespan">'+item;
+       lista.appendChild(li);
+       
+    
+    
+   })
+}
